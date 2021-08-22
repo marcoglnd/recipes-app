@@ -65,10 +65,6 @@ export default function Login() {
           </button>
         </Link>
       </form>
-      <p className="link">
-        Forgot password?
-        <a href="#paracadastro"> or Sign up</a>
-      </p>
     </section>
   );
 }
