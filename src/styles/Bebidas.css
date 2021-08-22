@@ -1,0 +1,81 @@
+.bebidas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.drink-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.card-img-drinks {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px #cbced1 , -7px -7px 10px white;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+.card-title-drinks {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-drinks {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-basis: 160px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  margin: 0.5em;
+  margin-bottom: 5px;
+  width: 160px;
+}
+
+.card-meals img {
+  width: 100px;
+}
+
+.drink-list-ingredients {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+.card-drink-ingredients {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-basis: 160px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  margin: 0.5em;
+  margin-bottom: 5px;
+  width: 160px;
+}
+
+.card-ingredients-img {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px #cbced1 , -7px -7px 10px white;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+.card-title-ingredients {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}

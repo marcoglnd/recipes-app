@@ -1,0 +1,207 @@
+.comidas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-comidas {
+  background: rgba(255, 188, 88, 0.8);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px #cbced1 , -6px -6px 6px white;
+  color: rgba(128, 0, 0, 0.85);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+  height: 40px;
+  margin: 0.5em;
+  margin-top: 40px;
+  outline: none;
+  transition: 0.5s;
+  width: 130px;
+}
+
+.comidas-categories {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header {
+  text-align: center;
+}
+
+.food-ingredients {
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.card-img-meals {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px #cbced1 , -7px -7px 10px white;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+.card-exp-meals {
+  align-items: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+.card-title-meals {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-meals {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-basis: 160px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  margin: 0.5em;
+  margin-bottom: 5px;
+  width: 160px;
+}
+
+.card-meals img {
+  width: 100px;
+}
+
+.explore-comidas {
+  background: rgba(255, 188, 88, 0.8);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px #cbced1 , -6px -6px 6px white;
+  color: rgba(128, 0, 0, 0.85);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+  height: 40px;
+  margin: 0.5em;
+  margin-top: 40px;
+  outline: none;
+  transition: 0.5s;
+  width: 130px;
+}
+
+.explore-bebidas {
+  background: rgba(99, 108, 160, 0.8);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px #cbced1 , -6px -6px 6px white;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+  height: 40px;
+  margin: 0.5em;
+  margin-top: 40px;
+  outline: none;
+  transition: 0.5s;
+  width: 130px;
+}
+
+.card-explore-img {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px #cbced1 , -7px -7px 10px white;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+.card-meals-explore {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5em;
+  margin-bottom: 5px;
+  width: 160px;
+}
+
+.food-list-explore {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.select-country {
+  margin: 0.5em;
+}
+
+.food-list-explore a {
+  display: inline-flex;
+}
+
+.title-h2 {
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.title-profile, .email {
+  text-align: center;
+}
+
+.card-meals-details {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  margin-bottom: 5px;
+  width: 250px;
+}
+
+.details-btn {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.food-meals-details {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 250px;
+}
+
+.ingredients-details {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.share-btn {
+  align-items: center;
+}
+
+.btn-favs {
+  align-items: center;
+}
